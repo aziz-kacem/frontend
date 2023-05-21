@@ -1,0 +1,41 @@
+.create-blog.content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-blog.content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-blog.content label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .create-blog.content input[type="text"],
+  .create-blog.content input[type="password"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .create-blog.content button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .create-blog.content button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
